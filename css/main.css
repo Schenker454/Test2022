@@ -1,9 +1,19 @@
 p {
   font-family: 'Roboto', sans-serif; }
 
-table td {
-  border: 1px solid lightgray;
-  background-color: bisque; }
+table {
+  display: block;
+  float: left;
+  margin: 0 auto;
+  padding: 5px 5px; }
+  table td {
+    border: 1px solid lightgray;
+    background-color: bisque; }
+
+.image-block {
+  float: left;
+  margin: 0 auto;
+  padding: 5px 5px; }
 
 ul li a {
   font-family: 'Roboto', sans-serif;
@@ -11,3 +21,10 @@ ul li a {
   font-size: 24px;
   color: blue;
   text-decoration: none; }
+
+section {
+  width: 500px;
+  margin: 0 auto;
+  height: auto; }
+  section p {
+    float: left; }
