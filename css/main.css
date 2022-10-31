@@ -6,42 +6,61 @@ body {
   width: 70%;
   margin: 0 auto; }
   .header-main-div h1 {
-    text-align: center; }
+    text-align: center;
+    font-size: 400%; }
   .header-main-div p {
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 150%;
     color: #AD8B73;
     font-weight: bold; }
 
-main {
-  clear: both; }
-
-.test-div-1 {
-  width: 300px;
-  height: 300px;
-  background-color: red;
-  float: left;
-  margin: 0 auto; }
-
-.test-div-2 {
-  width: 300px;
-  height: 300px;
-  background-color: blue;
-  float: left;
-  margin: 0 auto; }
-
 .cloud-block-class {
-  display: block;
-  width: 10%;
-  position: relative;
-  float: left; }
+  display: inline-block;
+  width: 15%;
+  position: absolute; }
 
 .mountain-block-class {
   display: inline-block;
-  position: relative; }
+  position: relative;
+  width: 50%; }
 
 .images-container {
+  text-align: center;
+  width: 1000px;
   margin: 0 auto; }
+
+.block-test {
+  position: relative;
+  width: 80%;
+  margin: 0 auto; }
+
+.main-text-class {
+  font-family: "Poppins", sans-serif;
+  font-size: 180%;
+  color: #AD8B73;
+  width: 70%;
+  margin: 1% auto; }
+  .main-text-class p {
+    font-size: 70%; }
+
+footer {
+  width: 70%;
+  height: 300px;
+  background-color: #E3CAA5;
+  margin: 0 auto; }
+
+.div-footer {
+  position: relative;
+  width: 30%;
+  height: 200px;
+  border: 1px solid black;
+  float: left; }
+
+.footer-test {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */
